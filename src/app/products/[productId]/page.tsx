@@ -1,4 +1,4 @@
-export default async function Page({
+export default async function Productpage({
     params
 }: {
     params: Promise<{ productId: string }>;
