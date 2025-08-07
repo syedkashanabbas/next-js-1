@@ -6,6 +6,9 @@ export default async function Reviewpage({
     const productId  = (await params).productId;
     const reviewId = (await params).reviewId;
     return (
-        <h1>Product  {productId} and Review {reviewId}</h1>
+        <>
+        <h1>Product  = {productId}</h1>
+        <h1>Review = {reviewId}</h1>
+        </>
     );
 }
