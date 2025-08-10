@@ -6,7 +6,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 
-export default function Page() {
+export default function CarouselPage() {
     return (
         <div>
 
